@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.travery.model.mapper.TripPlanBoardMapper">
+
+	<resultMap type="TripPlanBoardDto" id="TripPlanBoard">
+		<result column="article_no" property="articleNo"/>
+		<result column="user_id" property="userId"/>
+		<result column="subject" property="subject"/>
+		<result column="start_date" property="startDate"/>
+		<result column="end_date" property="endDate"/>
+		<result column="hit" property="hit"/>
+		<result column="register_time" property="registerTime"/>
+	</resultMap>
+	
+	<resultMap type="TripDetailDto" id="TripDeatil">
+		<result column="article_no" property="articleNo"/>
+		<result column="parent_no" property="parentNo"/>
+		<result column="content_id" property="contentId"/>
+		<result column="title" property="title"/>
+		<result column="addr1" property="addr1"/>
+		<result column="overview" property="overview"/>
+		<result column="content" property="content"/>
+		<result column="start_date" property="detailStartDate"/>
+		<result column="end_date" property="detailEndDate"/>
+	</resultMap>
+
+	<sql id="search">
+		<if test="word != null and word != ''">
+			<if test="key == 'subject'">
+				and subject like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'subject'">
+				and ${key} = #{word}
+			</if>
+		</if>
+	</sql>
+	
+	<insert id="writeTripPlanBoard" parameterType="TripPlanBoardDto">
+	  INSERT INTO tripplanBoard (user_id, subject, start_date, end_date, hit, register_time)
+	  VALUES (#{userId}, #{subject}, #{startDate}, #{endDate}, #{hit}, NOW())
+	  <selectKey resultType="int" keyProperty="articleNo" order="AFTER">
+	    SELECT LAST_INSERT_ID()
+	  </selectKey>
+	</insert>
+	
+	<insert id="writeTripDetail" parameterType="java.util.List">
+	  INSERT INTO tripdetail (parent_no, content, start_date, end_date,content_id,title,addr1,overview )
+	  VALUES
+	  <foreach collection="list" item="item" separator=",">
+	    (#{item.parentNo}, #{item.content}, #{item.detailStartDate}, #{item.detailEndDate}, #{item.contentId},#{item.title},#{item.addr1},#{item.overview})
+	  </foreach>
+	</insert>
+
+	<update id="modifyTripPlanBoard" parameterType="TripPlanBoardDto">
+		update tripplanBoard
+		set subject = #{subject}, start_date = #{startDate}, end_date = #{endDate}
+		where article_no = #{articleNo}
+	</update>
+	
+	<update id="modifyTripDetail" parameterType="java.util.List">
+	  update tripdetail
+	  set content = #{content}, start_date = #{detailStartDate}, end_date = #{detailEndDate} 
+	  where article_no = #{articleNo}
+	</update>
+	
+	<select id="listTripPlanBoard" parameterType="map" resultMap="TripPlanBoard">
+		select b.article_no, b.user_id, b.subject, b.start_date, b.end_date, b.hit, b.register_time, m.user_name
+		from tripplanboard b, members m 
+		where b.user_id = m.user_id
+		<if test="word != null and word != ''">
+			<if test="key == 'subject'">
+				and subject like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'subject'">
+				and b.${key} = #{word}
+			</if>
+		</if>
+		order by b.article_no desc
+		limit #{start}, #{spp}
+	</select>
+	
+	<select id="monthlyTripPlanBoard" parameterType="map" resultMap="TripPlanBoard">
+		select *
+		from tripplanboard
+		where year(register_time) = #{year} and month(register_time) = #{month}
+		order by hit desc
+		limit 5
+	</select>
+	
+	<select id="listDetail" parameterType="map" resultMap="TripDeatil">
+		select *
+		from tripdetail
+		where parent_no = #{articleNo}
+	</select>
+	
+	
+	<select id="getTripPlanBoard" parameterType="int" resultMap="TripPlanBoard">
+		select b.article_no, b.user_id, b.subject, b.start_date, b.end_date, b.hit, b.register_time, m.user_name
+		from tripplanboard b, members m
+		where b.user_id = m.user_id
+		and b.article_no = #{articleNo}
+	</select>
+	
+	<select id="getTotalTripPlanBoardCount" parameterType="map" resultType="int">
+		select count(article_no)
+		from tripplanboard
+		<where>
+			<include refid="search"></include>
+		</where>
+	</select>
+	
+	<update id="updateHit" parameterType="int">
+		update tripplanboard
+		set hit = hit + 1
+		where article_no = #{articleNo}
+	</update>
+	
+		<delete id="deleteTripPlanBoard" parameterType="int">
+		delete from tripplanboard
+		where article_no = #{articleNo}
+	</delete>
+	
+
+
+</mapper>

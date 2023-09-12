@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.travery.model.mapper.HotPlaceBoardMapper">
+
+	<resultMap type="HotPlaceBoardDto" id="hotPlaceBoard">
+		<result column="article_no" property="articleNo"/>
+		<result column="user_id" property="userId"/>
+		<result column="subject" property="subject"/>
+		<result column="content" property="content"/>
+		<result column="hit" property="hit"/>
+		<result column="register_time" property="registerTime"/>
+		<result column="first_img" property="firstImg"/>
+		<result column="content_id" property="contentId"/>
+		<result column="title" property="title"/>
+		<result column="addr1" property="addr1"/>
+		<result column="overview" property="overview"/>
+	</resultMap>
+	
+	<resultMap type="HotPlacePhotoDto" id="HotPlacePhoto">
+		<result column="article_no" property="articleNo"/>
+		<result column="parent_no" property="parentNo"/>
+		<result column="photo_url" property="photoUrl"/>
+	</resultMap>
+	
+	<select id="listDetail" parameterType="map" resultMap="HotPlacePhoto">
+		select *
+		from photourl
+		where parent_no = #{articleNo}
+	</select>	
+	
+	<insert id="writeHotPlaceBoard" parameterType="HotPlaceBoardDto">
+	  <if test="firstImg != null">
+		insert into hotplaceboard(user_id, subject, content,register_time,first_img,content_id,title,addr1,overview)
+		values (#{userId}, #{subject}, #{content},  now(),#{firstImg},#{contentId},#{title},#{addr1},#{overview})
+	  </if>
+	  <if test="firstImg == null">
+	    insert into hotplaceboard(user_id, subject, content,register_time,content_id,title,addr1,overview)
+		values (#{userId}, #{subject}, #{content},  now(),#{contentId},#{title},#{addr1},#{overview})
+	  </if>
+		<selectKey resultType="int" keyProperty="articleNo" order="AFTER">
+			select last_insert_id()
+		</selectKey>
+	</insert>
+	
+	<insert id="writeHotPlacePhoto" parameterType="java.util.List">
+	  INSERT INTO photourl (parent_no, photo_url )
+	  VALUES
+	  <foreach collection="list" item="item" separator=",">
+	    (#{item.parentNo}, #{item.photoUrl})
+	  </foreach>
+	</insert>
+	
+	<sql id="search">
+		<if test="word != null and word != ''">
+			<if test="key == 'subject'">
+				and subject like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'subject'">
+				and ${key} = #{word}
+			</if>
+		</if>
+	</sql>
+
+
+	<select id="listHotPlaceBoard" parameterType="map" resultMap="hotPlaceBoard">
+		select b.article_no, b.user_id, b.subject, b.content, b.hit, b.register_time, b.first_img, b.content_id, b.title, b.addr1, b.overview, m.user_name
+		from hotplaceboard b, members m 
+		where b.user_id = m.user_id
+		<if test="word != null and word != ''">
+			<if test="key == 'subject'">
+				and subject like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'subject'">
+				and b.${key} = #{word}
+			</if>
+		</if>
+		order by b.article_no desc
+		limit #{start}, #{spp}
+	</select>
+	
+	<select id="monthlyHotPlaceBoard" parameterType="map" resultMap="hotPlaceBoard">
+		select *
+		from hotplaceboard
+		where year(register_time) = #{year} and month(register_time) = #{month}
+		order by hit desc
+		limit 3
+	</select>
+	
+	<select id="getTotalHotPlaceBoardCount" parameterType="map" resultType="int">
+		select count(article_no)
+		from hotplaceboard
+		<where>
+			<include refid="search"></include>
+		</where>
+	</select>
+	
+	<select id="getHotPlaceBoard" parameterType="int" resultMap="hotPlaceBoard">
+		select b.article_no, b.user_id, b.subject, b.content, b.hit, b.register_time, m.user_name, b.title, b.addr1, b.overview
+		from hotplaceboard b, members m
+		where b.user_id = m.user_id
+		and b.article_no = #{articleNo}
+	</select>
+	
+	
+	<update id="updateHit" parameterType="int">
+		update hotplaceboard
+		set hit = hit + 1
+		where article_no = #{articleNo}
+	</update>
+	
+	<update id="modifyHotPlaceBoard" parameterType="HotPlaceBoardDto">
+		update hotplaceboard
+		set subject = #{subject}, content = #{content}, first_img=#{firstImg}
+		where article_no = #{articleNo}
+	</update>
+	
+	<update id="deleteFirstImage" parameterType="int">
+		update hotplaceboard
+		set first_img = ""
+		where article_no = #{articleNo}
+	</update>
+	
+	<delete id="deleteHotPlaceBoard" parameterType="int">
+		delete from hotplaceboard
+		where article_no = #{articleNo}
+	</delete>
+	
+	<delete id="deleteHotplacePhoto" parameterType="int">
+		delete from photourl
+		where parent_no = #{articleNo}
+	</delete>
+
+</mapper>

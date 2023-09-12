@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.ssafy.travery.controller.ExceptionControllerAdvice" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/ExceptionControllerAdvice.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="273" x="832" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.ssafy.travery.controller.MailCheckController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/MailCheckController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="420" x="7387" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.ssafy.travery.controller.AdminBoardController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/AdminBoardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="366" x="10062" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.ssafy.travery.controller.HotPlaceBoardController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/HotPlaceBoardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="378" x="4778" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.ssafy.travery.controller.AreaCodeController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/AreaCodeController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="319" x="9372" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.ssafy.travery.controller.QnABoardController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/QnABoardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="358" x="8974" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.ssafy.travery.controller.TripSearchController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/TripSearchController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="349" x="6737" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.ssafy.travery.controller.FileDownloadController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/FileDownloadController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="293" x="1521" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.ssafy.travery.controller.MemberController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/MemberController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="315" width="454" x="7847" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.ssafy.travery.controller.UserBoardController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/UserBoardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="359" x="2061" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.ssafy.travery.controller.TripPlanBoardController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/TripPlanBoardController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="374" x="5593" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.ssafy.travery.controller.QnABoardReplyController" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/controller/QnABoardReplyController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="385" x="4110" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.ssafy.travery.model.BoardParameterDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/BoardParameterDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="138" x="235" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.ssafy.travery.model.FileInfoDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/FileInfoDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="155" x="3148" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.ssafy.travery.model.MailCheckDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/MailCheckDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="137" x="1145" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.ssafy.travery.model.MemberDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/MemberDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="167" x="1854" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.ssafy.travery.model.AdminBoardDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/AdminBoardDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="191" x="2801" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.ssafy.travery.model.HotPlaceBoardDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/HotPlaceBoardDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="729" width="203" x="4535" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.ssafy.travery.model.QnABoardReplyDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/QnABoardReplyDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="567" width="191" x="3032" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.ssafy.travery.model.TripPlanBoardDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/TripPlanBoardDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="184" x="608" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.ssafy.travery.model.TripDetailDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/TripDetailDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="171" x="608" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.ssafy.travery.model.TripSearchDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/TripSearchDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1017" width="155" x="413" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.ssafy.travery.model.SidoGugunCodeDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/SidoGugunCodeDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="159" x="1322" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.ssafy.travery.model.HotPlacePhotoDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/HotPlacePhotoDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="140" x="4535" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.ssafy.travery.model.TripParameterDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/TripParameterDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="639" width="151" x="44" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.ssafy.travery.model.UserBoardDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/UserBoardDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="191" x="3494" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.ssafy.travery.model.QnABoardDto" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/QnABoardDto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="191" x="3263" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="com.ssafy.travery.model.mapper.HotPlaceBoardMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/HotPlaceBoardMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="357" x="5196" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="29" language="java" name="com.ssafy.travery.model.mapper.QnABoardMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/QnABoardMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="291" x="8633" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="30" language="java" name="com.ssafy.travery.model.mapper.MemberMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/MemberMapper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="252" x="8341" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="31" language="java" name="com.ssafy.travery.model.mapper.MailCheckMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/MailCheckMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="198" x="7101" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="32" language="java" name="com.ssafy.travery.model.mapper.UserBoardMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/UserBoardMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="293" x="2460" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="33" language="java" name="com.ssafy.travery.model.mapper.AreaCodeMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/AreaCodeMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="291" x="9731" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="34" language="java" name="com.ssafy.travery.model.mapper.QnABoardReplyMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/QnABoardReplyMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="345" x="3725" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="35" language="java" name="com.ssafy.travery.model.mapper.AdminBoardMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/AdminBoardMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="307" x="10468" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="36" language="java" name="com.ssafy.travery.model.mapper.TripSearchMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/TripSearchMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="262" x="6396" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="37" language="java" name="com.ssafy.travery.model.mapper.TripPlanBoardMapper" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/mapper/TripPlanBoardMapper.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="349" x="6007" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="38" language="java" name="com.ssafy.travery.model.service.TripSearchService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/TripSearchService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="301" x="6698" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="39" language="java" name="com.ssafy.travery.model.service.MailCheckServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/MailCheckServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="221" x="7126" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="40" language="java" name="com.ssafy.travery.model.service.HotPlaceBoardService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/HotPlaceBoardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="357" x="4799" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="41" language="java" name="com.ssafy.travery.model.service.HotPlaceBoardServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/HotPlaceBoardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="357" x="5196" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.ssafy.travery.model.service.AreaCodeServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/AreaCodeServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="291" x="9731" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="43" language="java" name="com.ssafy.travery.model.service.AdminBoardService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/AdminBoardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="307" x="10121" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="44" language="java" name="com.ssafy.travery.model.service.UserBoardService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/UserBoardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="301" x="2119" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="com.ssafy.travery.model.service.QnABoardServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/QnABoardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="301" x="8633" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="46" language="java" name="com.ssafy.travery.model.service.JwtService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/JwtService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="230" x="7577" y="1719"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="47" language="java" name="com.ssafy.travery.model.service.UserBoardServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/UserBoardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="301" x="2460" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.ssafy.travery.model.service.AdminBoardServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/AdminBoardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="307" x="10468" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.ssafy.travery.model.service.MemberServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/MemberServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="252" x="8341" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="50" language="java" name="com.ssafy.travery.model.service.QnABoardReplyService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/QnABoardReplyService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="345" x="4110" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="51" language="java" name="com.ssafy.travery.model.service.TripPlanBoardService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/TripPlanBoardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="349" x="5618" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="52" language="java" name="com.ssafy.travery.model.service.AreaCodeService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/AreaCodeService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="291" x="9400" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="53" language="java" name="com.ssafy.travery.model.service.TripSearchServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/TripSearchServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="301" x="6396" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="54" language="java" name="com.ssafy.travery.model.service.QnABoardService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/QnABoardService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="301" x="8964" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="55" language="java" name="com.ssafy.travery.model.service.JwtServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/JwtServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="230" x="7577" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="com.ssafy.travery.model.service.QnABoardReplyServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/QnABoardReplyServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="345" x="3725" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="57" language="java" name="com.ssafy.travery.model.service.MailCheckService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/MailCheckService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="198" x="7339" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="58" language="java" name="com.ssafy.travery.model.service.TripPlanBoardServiceImpl" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/TripPlanBoardServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="349" x="6007" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="59" language="java" name="com.ssafy.travery.model.service.MemberService" project="Travery" 
+    file="/Travery/src/main/java/com/ssafy/travery/model/service/MemberService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="252" x="7847" y="1094"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="60">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="61" name="hotPlaceBoardMapper"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="64" name="mailCheckService"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="57" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="67" name="userBoardService"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="70" name="fileInfos"/>      
+      <multiplicity id="71" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="73" name="memberMapper"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="76" name="fileInfos"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="58" navigable="false">      
+      <attribute id="79" name="tripPlanBoardMapper"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="82" name="adminBoardService"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="85" name="tripSearchMapper"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="87">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="59"/>  
+  </realization>  
+  <association id="88">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="89" name="tripSearchService"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="92" name="adminBoardMapper"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="95" name="qnaBoardReplyService"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="97">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="38"/>  
+  </realization>  
+  <association id="99">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="100" name="fileInfos"/>      
+      <multiplicity id="101" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="102">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="51"/>  
+  </realization>  
+  <association id="103">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="104" name="areaCodeMapper"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="106">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="46"/>  
+  </realization>  
+  <association id="107">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="108" name="mailCheckMapper"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="111" name="detailPlan"/>      
+      <multiplicity id="112" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="113">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="40"/>  
+  </realization>  
+  <association id="114">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="115" name="fileInfos"/>      
+      <multiplicity id="116" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="117">    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <association id="118">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="119" name="hotplBoardService"/>      
+      <multiplicity id="120" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="121">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="122" name="memberService"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="124">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="57"/>  
+  </realization>  
+  <association id="125">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="126" name="userBoardMapper"/>      
+      <multiplicity id="127" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="128">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="129" name="qnaBoardService"/>      
+      <multiplicity id="130" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="131">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="54"/>  
+  </realization>  
+  <association id="132">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="133" name="areaCodeService"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="136" name="jwtService"/>      
+      <multiplicity id="137" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="139" name="tripPlanBoardService"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="141">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="142" name="photoUrl"/>      
+      <multiplicity id="143" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="144">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="145" name="qnaBoardMapper"/>      
+      <multiplicity id="146" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="147">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="148" name="memberService"/>      
+      <multiplicity id="149" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="150">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="151" name="jwtService"/>      
+      <multiplicity id="152" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="153">    
+    <end type="SOURCE" refId="56" navigable="false">      
+      <attribute id="154" name="qnaBoardReplyMapper"/>      
+      <multiplicity id="155" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="156">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="52"/>  
+  </realization>  
+  <realization id="157">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

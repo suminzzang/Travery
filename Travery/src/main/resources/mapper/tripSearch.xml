@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+	
+<mapper namespace="com.ssafy.travery.model.mapper.TripSearchMapper">
+
+  <resultMap  type="TripSearchDto" id="TripSearch">
+    <result column="content_id" property="contentId"/>
+    <result column="content_type_id" property="contentTypeId"/>
+    <result column="title" property="title"/>
+    <result column="addr1" property="addr1"/>
+    <result column="addr2" property="addr2"/>
+    <result column="first_image" property="firstImage"/>
+    <result column="first_image2" property="firstImage2"/>
+    <result column="sido_code" property="sido_code"/>
+    <result column="gugun_code" property="gugun_code"/>
+    <result column="latitude" property="latitude"/>
+    <result column="longitude" property="longitude"/>
+    <result column="overview" property="overview"/>
+  </resultMap>
+  
+  	<sql id="search">
+		<if test="word != null and word != ''">
+			<if test="key == 'subject'">
+				and subject like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'subject'">
+				and ${key} = #{word}
+			</if>
+		</if>
+	</sql>
+
+  <select id="listArticle" resultMap="TripSearch" parameterType="map">
+    select *
+    from attraction_info i, attraction_description d
+    where i.sido_code=#{sido_code}
+    <if test="contentTypeId != 0">
+    	and i.content_type_id=#{contentTypeId}
+    </if>
+    <if test="gugun_code != 0">
+    	and i.gugun_code=#{gugun_code}
+    </if>
+    <if test="word != null and word !=''">
+    	and i.title like concat('%', #{word}, '%')
+    </if>
+    and i.content_id=d.content_id
+    order by title
+    limit #{start}, #{spp}
+  </select>
+  
+  	<select id="getTotalTripSearchCount" parameterType="map" resultType="int">
+		select count(content_id)
+	    from attraction_info
+	    where sido_code=#{sido_code}
+	    <if test="contentTypeId != 0">
+	    	and content_type_id=#{contentTypeId}
+	    </if>
+	    <if test="gugun_code != 0">
+	    	and gugun_code=#{gugun_code}
+	    </if>
+	    <if test="word != null and word !=''">
+	    	and title like concat('%', #{word}, '%')
+	    </if>
+	</select>
+
+  <select id="getOverview" resultType="string" parameterType="int">
+    select overview
+    from attraction_description
+    where content_id=#{contentId}
+  </select>
+  
+
+</mapper>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.travery.model.mapper.MailCheckMapper">
+
+	<resultMap type="MailCheckDto" id="mail">
+		<result column="token" property="token"/>
+		<result column="mail_key" property="mailKey"/>
+	</resultMap>
+	
+	<select id="getValue" parameterType="map" resultType="String">
+		select mail_key
+		from mail
+		where token = #{token} and mail_key = #{mailKey}
+	</select>
+
+	<insert id="setKey" parameterType="MailCheckDto">
+		insert into mail (token, mail_key)
+		values (#{token}, #{mailKey})
+	</insert>
+	
+	<delete id="removeKey" parameterType="String">
+		delete from mail
+		where token = #{token}
+	</delete>
+	
+	<select id="getSalt" parameterType="string" resultType="string">
+		select salt
+		from mail
+		where token = #{token}
+	</select>
+	
+	<update id="setSalt" parameterType="map">
+		update mail
+		set salt = #{salt}
+		where token = #{token}
+	</update>
+	
+</mapper>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.travery.model.mapper.AreaCodeMapper">
+
+	<resultMap type="sidoGugunCodeDto" id="sido">
+		<result column="sido_code" property="sidoCode"/>
+		<result column="sido_name" property="sidoName"/>
+	</resultMap>
+	
+	<resultMap type="sidoGugunCodeDto" id="sidoGugun" extends="sido">
+		<result column="gugun_code" property="gugunCode"/>
+		<result column="gugun_name" property="gugunName"/>
+	</resultMap>
+	
+	<select id="getSido" resultMap="sido">
+		select sido_code, sido_name
+		from sido
+		order by sido_code
+	</select>
+	
+	<select id="getGugunInSido" parameterType="int" resultMap="sidoGugun">
+		select gugun_code, gugun_name
+		from gugun
+		where sido_code = #{sido}
+		order by gugun_code
+	</select>
+	
+	<select id="getAreaName" parameterType="sidoGugunCodeDto" resultMap="sidoGugun">
+		select s.sido_name, g.gugun_name
+		from sido s, gugun g
+		where s.sido_code = g.sido_code
+		and s.sido_code = #{sidoCode} and g.gugun_code = #{gugunCode}
+	</select>
+	
+</mapper>
