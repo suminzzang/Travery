@@ -14,7 +14,9 @@
 ![결과창](/uploads/dc295827d0ac71cba5328909423a1d3e/결과창.gif)
 ### 랭킹 창
 ![랭킹창](/uploads/3afec457adb570dd5650e011bd790728/랭킹창.gif)
-#### 더 자세한 정보는 [![Travery 소개영상](http://img.youtube.com/vi/ckBsiBdPvwg/0.jpg)](https://youtu.be/ckBsiBdPvwg?t=0s)  에서!
+#### 더 자세한 정보는 
+[![Travery 소개영상](http://img.youtube.com/vi/ckBsiBdPvwg/0.jpg)](https://youtu.be/ckBsiBdPvwg?t=0s)
+https://youtu.be/ckBsiBdPvwg
 
 ---
 
