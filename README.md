@@ -6,14 +6,14 @@
 
 ## 주요 서비스 화면
 
-### 게임 실행 화면
-![메인화면](/uploads/9860b76ec4be6c7b4638bf1de1cbf494/게임실행화면.gif)
-### 대기방
-![대기방](/uploads/bd2a1ba71e856218202edeebbfc2f4a0/대기방.gif)
-### 결과창
-![결과창](/uploads/dc295827d0ac71cba5328909423a1d3e/결과창.gif)
-### 랭킹 창
-![랭킹창](/uploads/3afec457adb570dd5650e011bd790728/랭킹창.gif)
+### 메인화면
+![메인화면](https://github.com/suminzzang/Travery/blob/master/uploads/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.PNG)
+### 관광지검색
+![관광지검색1](https://github.com/suminzzang/Travery/blob/master/uploads/%EA%B4%80%EA%B4%91%EC%A7%80%EA%B2%80%EC%83%89.PNG)
+![관광지검색2](https://github.com/suminzzang/Travery/blob/master/uploads/%EA%B4%80%EA%B4%91%EC%A7%80%EA%B2%80%EC%83%892.PNG)
+### 관광지리뷰
+![관광지리뷰](https://github.com/suminzzang/Travery/blob/master/uploads/%EA%B4%80%EA%B4%91%EC%A7%80%EB%A6%AC%EB%B7%B0.PNG)
+
 #### 더 자세한 정보는 
 [![Travery 소개영상](http://img.youtube.com/vi/ckBsiBdPvwg/0.jpg)](https://youtu.be/ckBsiBdPvwg?t=0s)
 https://youtu.be/ckBsiBdPvwg
@@ -44,12 +44,11 @@ https://youtu.be/ckBsiBdPvwg
 ## 협업 툴
 - Git
 
-## class diagram
-![image](/uploads/5b79fcf3490948ac721ac5e13c1ea85d/image.png)
+## 요구사항 정의서 (Usecase Diagram)
+![image](https://github.com/suminzzang/Travery/blob/master/uploads/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EC%A0%95%EC%9D%98%EC%84%9C(UseCase%20Diagram).jpg)
 
 ## ER Diagram
-![image](/uploads/373466011e559dcfcf3d367167bf51b6/image.png)
-![image](/uploads/d213e0a9c736d478a899096ea0c6a518/image.png)
+![image](https://github.com/suminzzang/Travery/blob/master/uploads/ERD.PNG)
 
 
 ## 팀원 역할
